@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2BDB1E521A7056200822C1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BDB1E421A7056200822C1F /* AppDelegate.swift */; };
+		F2BDB1E721A7056200822C1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BDB1E621A7056200822C1F /* ViewController.swift */; };
+		F2BDB1EA21A7056200822C1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2BDB1E821A7056200822C1F /* Main.storyboard */; };
+		F2BDB1ED21A7056200822C1F /* FireBaseAuth.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2BDB1EB21A7056200822C1F /* FireBaseAuth.xcdatamodeld */; };
+		F2BDB1EF21A7056400822C1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2BDB1EE21A7056400822C1F /* Assets.xcassets */; };
+		F2BDB1F221A7056400822C1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2BDB1F021A7056400822C1F /* LaunchScreen.storyboard */; };
+		F2BDB1FD21A7056400822C1F /* FireBaseAuthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BDB1FC21A7056400822C1F /* FireBaseAuthTests.swift */; };
+		F2BDB20821A7056400822C1F /* FireBaseAuthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BDB20721A7056400822C1F /* FireBaseAuthUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2BDB1F921A7056400822C1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2BDB1D921A7056200822C1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2BDB1E021A7056200822C1F;
+			remoteInfo = FireBaseAuth;
+		};
+		F2BDB20421A7056400822C1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2BDB1D921A7056200822C1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2BDB1E021A7056200822C1F;
+			remoteInfo = FireBaseAuth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F2BDB1E121A7056200822C1F /* FireBaseAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireBaseAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2BDB1E421A7056200822C1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2BDB1E621A7056200822C1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F2BDB1E921A7056200822C1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2BDB1EC21A7056200822C1F /* FireBaseAuth.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FireBaseAuth.xcdatamodel; sourceTree = "<group>"; };
+		F2BDB1EE21A7056400822C1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2BDB1F121A7056400822C1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2BDB1F321A7056400822C1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2BDB1F821A7056400822C1F /* FireBaseAuthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FireBaseAuthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2BDB1FC21A7056400822C1F /* FireBaseAuthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireBaseAuthTests.swift; sourceTree = "<group>"; };
+		F2BDB1FE21A7056400822C1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2BDB20321A7056400822C1F /* FireBaseAuthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FireBaseAuthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2BDB20721A7056400822C1F /* FireBaseAuthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireBaseAuthUITests.swift; sourceTree = "<group>"; };
+		F2BDB20921A7056400822C1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2BDB1DE21A7056200822C1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2BDB1F521A7056400822C1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2BDB20021A7056400822C1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2BDB1D821A7056200822C1F = {
+			isa = PBXGroup;
+			children = (
+				F2BDB1E321A7056200822C1F /* FireBaseAuth */,
+				F2BDB1FB21A7056400822C1F /* FireBaseAuthTests */,
+				F2BDB20621A7056400822C1F /* FireBaseAuthUITests */,
+				F2BDB1E221A7056200822C1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2BDB1E221A7056200822C1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2BDB1E121A7056200822C1F /* FireBaseAuth.app */,
+				F2BDB1F821A7056400822C1F /* FireBaseAuthTests.xctest */,
+				F2BDB20321A7056400822C1F /* FireBaseAuthUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2BDB1E321A7056200822C1F /* FireBaseAuth */ = {
+			isa = PBXGroup;
+			children = (
+				F2BDB1E421A7056200822C1F /* AppDelegate.swift */,
+				F2BDB1E621A7056200822C1F /* ViewController.swift */,
+				F2BDB1E821A7056200822C1F /* Main.storyboard */,
+				F2BDB1EE21A7056400822C1F /* Assets.xcassets */,
+				F2BDB1F021A7056400822C1F /* LaunchScreen.storyboard */,
+				F2BDB1F321A7056400822C1F /* Info.plist */,
+				F2BDB1EB21A7056200822C1F /* FireBaseAuth.xcdatamodeld */,
+			);
+			path = FireBaseAuth;
+			sourceTree = "<group>";
+		};
+		F2BDB1FB21A7056400822C1F /* FireBaseAuthTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2BDB1FC21A7056400822C1F /* FireBaseAuthTests.swift */,
+				F2BDB1FE21A7056400822C1F /* Info.plist */,
+			);
+			path = FireBaseAuthTests;
+			sourceTree = "<group>";
+		};
+		F2BDB20621A7056400822C1F /* FireBaseAuthUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F2BDB20721A7056400822C1F /* FireBaseAuthUITests.swift */,
+				F2BDB20921A7056400822C1F /* Info.plist */,
+			);
+			path = FireBaseAuthUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2BDB1E021A7056200822C1F /* FireBaseAuth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2BDB20C21A7056400822C1F /* Build configuration list for PBXNativeTarget "FireBaseAuth" */;
+			buildPhases = (
+				F2BDB1DD21A7056200822C1F /* Sources */,
+				F2BDB1DE21A7056200822C1F /* Frameworks */,
+				F2BDB1DF21A7056200822C1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FireBaseAuth;
+			productName = FireBaseAuth;
+			productReference = F2BDB1E121A7056200822C1F /* FireBaseAuth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2BDB1F721A7056400822C1F /* FireBaseAuthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2BDB20F21A7056400822C1F /* Build configuration list for PBXNativeTarget "FireBaseAuthTests" */;
+			buildPhases = (
+				F2BDB1F421A7056400822C1F /* Sources */,
+				F2BDB1F521A7056400822C1F /* Frameworks */,
+				F2BDB1F621A7056400822C1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2BDB1FA21A7056400822C1F /* PBXTargetDependency */,
+			);
+			name = FireBaseAuthTests;
+			productName = FireBaseAuthTests;
+			productReference = F2BDB1F821A7056400822C1F /* FireBaseAuthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F2BDB20221A7056400822C1F /* FireBaseAuthUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2BDB21221A7056400822C1F /* Build configuration list for PBXNativeTarget "FireBaseAuthUITests" */;
+			buildPhases = (
+				F2BDB1FF21A7056400822C1F /* Sources */,
+				F2BDB20021A7056400822C1F /* Frameworks */,
+				F2BDB20121A7056400822C1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2BDB20521A7056400822C1F /* PBXTargetDependency */,
+			);
+			name = FireBaseAuthUITests;
+			productName = FireBaseAuthUITests;
+			productReference = F2BDB20321A7056400822C1F /* FireBaseAuthUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2BDB1D921A7056200822C1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = lhl;
+				TargetAttributes = {
+					F2BDB1E021A7056200822C1F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					F2BDB1F721A7056400822C1F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F2BDB1E021A7056200822C1F;
+					};
+					F2BDB20221A7056400822C1F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F2BDB1E021A7056200822C1F;
+					};
+				};
+			};
+			buildConfigurationList = F2BDB1DC21A7056200822C1F /* Build configuration list for PBXProject "FireBaseAuth" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2BDB1D821A7056200822C1F;
+			productRefGroup = F2BDB1E221A7056200822C1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2BDB1E021A7056200822C1F /* FireBaseAuth */,
+				F2BDB1F721A7056400822C1F /* FireBaseAuthTests */,
+				F2BDB20221A7056400822C1F /* FireBaseAuthUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2BDB1DF21A7056200822C1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2BDB1F221A7056400822C1F /* LaunchScreen.storyboard in Resources */,
+				F2BDB1EF21A7056400822C1F /* Assets.xcassets in Resources */,
+				F2BDB1EA21A7056200822C1F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2BDB1F621A7056400822C1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2BDB20121A7056400822C1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2BDB1DD21A7056200822C1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2BDB1E721A7056200822C1F /* ViewController.swift in Sources */,
+				F2BDB1E521A7056200822C1F /* AppDelegate.swift in Sources */,
+				F2BDB1ED21A7056200822C1F /* FireBaseAuth.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2BDB1F421A7056400822C1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2BDB1FD21A7056400822C1F /* FireBaseAuthTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2BDB1FF21A7056400822C1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2BDB20821A7056400822C1F /* FireBaseAuthUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2BDB1FA21A7056400822C1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2BDB1E021A7056200822C1F /* FireBaseAuth */;
+			targetProxy = F2BDB1F921A7056400822C1F /* PBXContainerItemProxy */;
+		};
+		F2BDB20521A7056400822C1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2BDB1E021A7056200822C1F /* FireBaseAuth */;
+			targetProxy = F2BDB20421A7056400822C1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F2BDB1E821A7056200822C1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2BDB1E921A7056200822C1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2BDB1F021A7056400822C1F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2BDB1F121A7056400822C1F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2BDB20A21A7056400822C1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2BDB20B21A7056400822C1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2BDB20D21A7056400822C1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WGTAZF6C7D;
+				INFOPLIST_FILE = FireBaseAuth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lhl.FireBaseAuth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2BDB20E21A7056400822C1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WGTAZF6C7D;
+				INFOPLIST_FILE = FireBaseAuth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lhl.FireBaseAuth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F2BDB21021A7056400822C1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WGTAZF6C7D;
+				INFOPLIST_FILE = FireBaseAuthTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lhl.FireBaseAuthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FireBaseAuth.app/FireBaseAuth";
+			};
+			name = Debug;
+		};
+		F2BDB21121A7056400822C1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WGTAZF6C7D;
+				INFOPLIST_FILE = FireBaseAuthTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lhl.FireBaseAuthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FireBaseAuth.app/FireBaseAuth";
+			};
+			name = Release;
+		};
+		F2BDB21321A7056400822C1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WGTAZF6C7D;
+				INFOPLIST_FILE = FireBaseAuthUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lhl.FireBaseAuthUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FireBaseAuth;
+			};
+			name = Debug;
+		};
+		F2BDB21421A7056400822C1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WGTAZF6C7D;
+				INFOPLIST_FILE = FireBaseAuthUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lhl.FireBaseAuthUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FireBaseAuth;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2BDB1DC21A7056200822C1F /* Build configuration list for PBXProject "FireBaseAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2BDB20A21A7056400822C1F /* Debug */,
+				F2BDB20B21A7056400822C1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2BDB20C21A7056400822C1F /* Build configuration list for PBXNativeTarget "FireBaseAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2BDB20D21A7056400822C1F /* Debug */,
+				F2BDB20E21A7056400822C1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2BDB20F21A7056400822C1F /* Build configuration list for PBXNativeTarget "FireBaseAuthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2BDB21021A7056400822C1F /* Debug */,
+				F2BDB21121A7056400822C1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2BDB21221A7056400822C1F /* Build configuration list for PBXNativeTarget "FireBaseAuthUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2BDB21321A7056400822C1F /* Debug */,
+				F2BDB21421A7056400822C1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F2BDB1EB21A7056200822C1F /* FireBaseAuth.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F2BDB1EC21A7056200822C1F /* FireBaseAuth.xcdatamodel */,
+			);
+			currentVersion = F2BDB1EC21A7056200822C1F /* FireBaseAuth.xcdatamodel */;
+			path = FireBaseAuth.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F2BDB1D921A7056200822C1F /* Project object */;
+}
