@@ -16,7 +16,7 @@
 		F2BDB1F221A7056400822C1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2BDB1F021A7056400822C1F /* LaunchScreen.storyboard */; };
 		F2BDB1FD21A7056400822C1F /* FireBaseAuthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BDB1FC21A7056400822C1F /* FireBaseAuthTests.swift */; };
 		F2BDB20821A7056400822C1F /* FireBaseAuthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BDB20721A7056400822C1F /* FireBaseAuthUITests.swift */; };
-		F2BDB22C21A70C3700822C1F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2BDB22B21A70C3700822C1F /* GoogleService-Info.plist */; };
+		F2BDB22E21A7141200822C1F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2BDB22D21A7141200822C1F /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +54,7 @@
 		F2BDB20321A7056400822C1F /* FireBaseAuthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FireBaseAuthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2BDB20721A7056400822C1F /* FireBaseAuthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireBaseAuthUITests.swift; sourceTree = "<group>"; };
 		F2BDB20921A7056400822C1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F2BDB22B21A70C3700822C1F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		F2BDB22D21A7141200822C1F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,7 +131,7 @@
 				F2BDB1EE21A7056400822C1F /* Assets.xcassets */,
 				F2BDB1F021A7056400822C1F /* LaunchScreen.storyboard */,
 				F2BDB1F321A7056400822C1F /* Info.plist */,
-				F2BDB22B21A70C3700822C1F /* GoogleService-Info.plist */,
+				F2BDB22D21A7141200822C1F /* GoogleService-Info.plist */,
 				F2BDB1EB21A7056200822C1F /* FireBaseAuth.xcdatamodeld */,
 			);
 			path = FireBaseAuth;
@@ -262,7 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2BDB1F221A7056400822C1F /* LaunchScreen.storyboard in Resources */,
-				F2BDB22C21A70C3700822C1F /* GoogleService-Info.plist in Resources */,
+				F2BDB22E21A7141200822C1F /* GoogleService-Info.plist in Resources */,
 				F2BDB1EF21A7056400822C1F /* Assets.xcassets in Resources */,
 				F2BDB1EA21A7056200822C1F /* Main.storyboard in Resources */,
 			);
